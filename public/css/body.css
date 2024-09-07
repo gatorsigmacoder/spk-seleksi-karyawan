@@ -1,0 +1,31 @@
+.cursor-active {
+    cursor: pointer;
+}
+
+.show-opt .mr-opt {
+    display: inline-block;
+}
+
+.more-icon {
+    cursor: pointer;
+}
+
+.mr-opt {
+    padding: 10px;
+    background: #1b1b31;
+    width: fit-content;
+    position: absolute;
+    display: none;
+    margin-top: 3px;
+    border-radius: 6px;
+    transition: 0s;
+}
+
+.mr-opt li {
+    list-style: none;
+}
+
+.mr-opt li a {
+    text-decoration: none;
+    color: #fff;
+}
